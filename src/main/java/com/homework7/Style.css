@@ -1,0 +1,77 @@
+* {
+    -fx-primary-color: rgb(146, 0, 0);
+    -fx-secondary-color: rgb(146, 0, 0);
+    -fx-light-grey-color: #000000;
+    /*Set focus color*/
+    -fx-focus-color: -fx-secondary-color;
+    /*Increase font size*/
+    -fx-font-size: 1.5em;
+  }
+   
+  /*-----------------------------------------
+  Customize the right button background color
+  -------------------------------------------*/
+  .date-picker .arrow-button {
+    -fx-background-color: -fx-primary-color;
+    -fx-background-radius: 0;
+  }
+   
+  .date-picker .arrow-button:hover {
+    -fx-background-color: -fx-secondary-color;
+  }
+   
+  .date-picker .arrow-button .arrow {
+    -fx-background-color: gray;
+  }
+   
+  /*-----------------------------------------
+  Customize popup content
+  -------------------------------------------*/
+  .date-picker .cell {
+    -fx-background-color: gray;
+  }
+   
+  .date-picker .cell:hover {
+    -fx-background-color: -fx-primary-color;
+  }
+   
+  .date-picker .cell:focused {
+    -fx-background-color: -fx-primary-color;
+  }
+   
+  /*-----------------------------------------
+  Customize the selected cell
+  -------------------------------------------*/
+  .date-picker .selected {
+    -fx-background-color: -fx-primary-color;
+    -fx-text-fill: black;
+  }
+   
+  .date-picker .selected:focused {
+    -fx-background-color: -fx-primary-color;
+    -fx-text-fill: black;
+  }
+   
+  .date-picker-popup {
+    -fx-border-color: rgb(146, 0, 0);
+  }
+   
+  .date-picker-popup .month-year-pane {
+    -fx-background-color: -fx-primary-color;
+  }
+   
+  .date-picker-popup .month-year-pane .label {
+    -fx-text-fill: black;
+  }
+   
+  .date-picker-popup .week-number-cell {
+    -fx-text-fill: -fx-secondary-color;
+  }
+   
+  /*-----------------------------------------
+  Customize left and right arrow
+  -------------------------------------------*/
+  .date-picker-popup .spinner .button .left-arrow,
+  .date-picker-popup .spinner .button .right-arrow {
+    -fx-background-color: gray;
+  }
